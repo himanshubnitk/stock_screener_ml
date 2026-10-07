@@ -10,6 +10,7 @@ from utils.logger import get_logger
 logger = get_logger(__name__)
 
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("Nifty50 Backtester API starting up...")
